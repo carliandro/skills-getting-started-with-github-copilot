@@ -1,17 +1,15 @@
-# Introdução ao GitHub Copilot
+# GitHub Copilot
 
 ![](../../actions/workflows/1-preparing.yml/badge.svg)
 ![](../../actions/workflows/2-first-introduction.yml/badge.svg)
 ![](../../actions/workflows/3-copilot-edits.yml/badge.svg)
 ![](../../actions/workflows/4-copilot-on-github.yml/badge.svg)
 
-_Comece a usar o GitHub Copilot em menos de uma hora._
-
 ## Boas-vindas
 
-- **Para quem é este exercício:** Desenvolvedores de qualquer nível de experiência que desejam acelerar seu fluxo de trabalho.
 - **O que você aprenderá:** As diferentes formas de interação com o Copilot para explicar, escrever, depurar e desenvolver código.
 - **O que você construirá:** Você irá guiar o Copilot para atualizar o site de atividades extracurriculares da Escola Secundária Mergington.
+
 - **Pré-requisitos:**
   - Exercício básico: [Introdução ao GitHub](https://github.com/skills/introduction-to-github)
   - Familiaridade com o [VS Code](https://code.visualstudio.com/)
@@ -28,7 +26,7 @@ Neste exercício, você irá:
 
 1. Clique com o botão direito em **Copiar Exercício** e abra o link em uma nova aba.
 
-   <a id="copy-exercise" href="https://github.com/new?template_owner=skills&template_name=getting-started-with-github-copilot&owner=%40me&name=skills-getting-started-with-github-copilot&description=Exercise:+Get+started+using+GitHub+Copilot&visibility=public">
+   <a id="copy-exercise" href="https://github.com/new?template_owner=Copilot-Workshop-Invillia&template_name=getting-started-with-github-copilot&owner=%40me&name=skills-getting-started-with-github-copilot&description=Exercise:+Get+started+using+GitHub+Copilot&visibility=public">
       <img src="https://img.shields.io/badge/📠_Copiar_Exercício-008000" height="25pt"/>
    </a>
 
@@ -55,6 +53,6 @@ Neste exercício, você irá:
 
 ---
 
-Obtenha ajuda: [Publique em nosso fórum de discussão](https://github.com/orgs/skills/discussions/categories/getting-started-with-github-copilot) &bull; [Confira a página de status do GitHub](https://www.githubstatus.com/)
+Obtenha ajuda: [Publique em nosso fórum de discussão](https://github.com/orgs/Copilot-Workshop-Invillia/discussions/categories/getting-started-with-github-copilot) &bull; [Confira a página de status do GitHub](https://www.githubstatus.com/)
 
 &copy; 2025 GitHub &bull; [Código de Conduta](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [Licença MIT](https://gh.io/mit)
