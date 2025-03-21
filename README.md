@@ -26,7 +26,7 @@ Neste exercício, você irá:
 
 1. Clique com o botão direito em **Copiar Exercício** e abra o link em uma nova aba.
 
-   <a id="copy-exercise" href="https://github.com/new?template_name=skills-getting-started-with-github-copilot&template_owner=Copilot-Workshop-Invillia&name=invillia-getting-started-with-github-copilot&owner=%40me&description=Exercise:+Get+started+using+GitHub+Copilot&visibility=public">
+   <a id="copy-exercise" target="_blank" href="https://github.com/new?template_name=skills-getting-started-with-github-copilot&template_owner=Copilot-Workshop-Invillia&name=invillia-getting-started-with-github-copilot&owner=%40me&description=Exercise:+Get+started+using+GitHub+Copilot&visibility=public">
       <img src="https://img.shields.io/badge/📠_Copiar_Exercício-008000" height="25pt"/>
    </a>
 
