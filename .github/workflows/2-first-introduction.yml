@@ -76,7 +76,7 @@ jobs:
         run: |
           # File and expected phrase
           file="src/app.py"
-          keyphrase="Validate student is not already signed up"
+          keyphrase="# Validar se o aluno já está inscrito"
 
           # Fail the workflow if the file content is missing
           if ! grep -q "$keyphrase" "$file"; then
