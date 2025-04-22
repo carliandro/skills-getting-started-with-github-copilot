@@ -12,13 +12,19 @@ from pydantic import EmailStr
 import os
 from pathlib import Path
 
-app = FastAPI(title="Mergington High School API",
-              description="API for viewing and signing up for extracurricular activities")
+# Initialize FastAPI app
+app = FastAPI(
+    title="Mergington High School API",
+    description="API for viewing and signing up for extracurricular activities"
+)
 
 # Mount the static files directory
 current_dir = Path(__file__).parent
-app.mount("/static", StaticFiles(directory=os.path.join(Path(__file__).parent,
-          "static")), name="static")
+app.mount(
+    "/static",
+    StaticFiles(directory=os.path.join(current_dir, "static")),
+    name="static"
+)
 
 # In-memory activity database
 activities = {
@@ -42,20 +48,22 @@ activities = {
     }
 }
 
-
 @app.get("/")
 def root():
+    """Redirect to the static index page."""
     return RedirectResponse(url="/static/index.html")
-
 
 @app.get("/activities")
 def get_activities():
+    """Retrieve all available activities."""
     return activities
-
 
 @app.post("/activities/{activity_name}/signup")
 def signup_for_activity(activity_name: str, email: EmailStr = Query(..., description="Student's email address")):
-    """Sign up a student for an activity"""
+    """
+    Sign up a student for an activity.
+    Validates the activity, checks for duplicate registrations, and ensures the participant limit is not exceeded.
+    """
     # Validate activity exists
     if activity_name not in activities:
         raise HTTPException(status_code=404, detail=f"Activity '{activity_name}' not found")
